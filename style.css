@@ -1,0 +1,89 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+header{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    
+}
+h1{
+    text-align: center;
+
+   
+
+
+}
+header h1 a{
+    color: orange;
+    text-decoration: underline blue 2px;
+
+}
+footer{
+    text-align: center;
+    background-color: yellow;
+    color: blue;
+    padding: 5px;
+    border-top: 1px solid grey; 
+    border-bottom: 1px solid grey;
+   width: 100%;
+ 
+}
+span.rojo{
+    color: red;
+}
+
+div.smr {
+
+    background-color: pink;
+    
+}
+div.smr img{
+    position: relative;
+    left: 15%;
+}
+div.smr p{
+    position: relative;
+    left: 15%;
+}
+div.dam{
+    background-color: grey;
+    
+}
+div.dam img{
+    position: relative;
+    left: 40%;
+}
+div.dam p{
+    position: relative;
+    left: 40%;
+}
+div.asir{
+    background-color: lightblue;
+    margin-bottom: 30px;
+
+}
+div.asir img{
+    position: relative;
+    left: 70%;
+}
+div.asir p{
+    position: relative;
+    left: 70%;
+}
+form.formulario{
+    color: orange;
+    margin-bottom: 10px;
+}
+H2{
+    color: blue;
+}
+table{
+    border: 1px solid;
+    text-align: center;
+    margin-bottom: 10px;
+}
+th,td{
+    border: 1px solid black;
+    color: red;
+   
+}

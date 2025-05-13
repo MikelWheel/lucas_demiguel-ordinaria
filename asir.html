@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>convocatoria extraordinaria</title>
+    <link rel="stylesheet" href="style.css">
+<script>
+    function mostrarMensaje() {
+        var nombre = document.getElementById("nombre").value;
+        var apellido = document.getElementById("apellido").value;
+        alert("¡Bienvenido, " + nombre + " " + apellido + "!");
+    }
+</script>
+</head>
+<body>
+    
+<header>
+    <h1> <a href="index.html">IES EL Grao</a> </h1>
+</header>
+
+<main>
+
+    <section>
+<form action="get" class="formulario">
+    <label for="nombre">Nombre</label>
+    <input type="text" name="nombre" id="nombre" onblur="mostrarMensaje()">
+<br>
+<br>
+    <label for="apellido">apellido</label>
+    <input type="text" name="apellido" id="apellido" onblur="mostrarMensaje()">
+    <br>
+    <br>
+    <label for="Año de nacimiento">Año de nacimiento</label>
+    <input type="number" name="Año de nacimiento" id="Año de nacimiento">
+    <br>
+    <br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+
+
+
+
+</form>
+        
+    </section>
+</main>
+
+<footer>
+    <p>Web desarrollada por <span class="rojo">lucas de Miguel</span></p>
+</footer>
+</body>
+</html>
